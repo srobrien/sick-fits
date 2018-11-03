@@ -33,6 +33,15 @@ const Item = styled.div`
       font-size: 1rem;
       padding: 1rem;
     }
+    button,
+    a {
+      font-weight: 800;
+      &:hover {
+        background: ${props => props.theme.red};
+        color: white;
+        cursor: pointer;
+      }
+    }
   }
 `;
 
