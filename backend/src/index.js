@@ -28,7 +28,7 @@ server.start(
   {
     cors: {
       credentials: true,
-      origin: '*.herokuapp.com'
+      origin: 'https://sick-fits-next-fsd.herokuapp.com/'
     }
   },
   s => {
