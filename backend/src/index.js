@@ -26,10 +26,10 @@ server.express.use(async (req, res, next) => {
 
 server.start(
   {
-    cors: {
-      credentials: true,
-      origin: 'https://sick-fits-next-fsd.herokuapp.com/'
-    }
+    // cors: {
+    //   credentials: true,
+    //   origin: 'https://sick-fits-next-fsd.herokuapp.com/'
+    // }
   },
   s => {
     console.log(`Server is now live on http://localhost:${s.port}`);
