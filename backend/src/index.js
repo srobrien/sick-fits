@@ -28,7 +28,7 @@ server.start(
   {
     cors: {
       credentials: true,
-      origin: '*.heroku.com'
+      origin: '*.herokuapp.com'
     }
   },
   s => {
