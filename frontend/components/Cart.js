@@ -64,9 +64,11 @@ const Cart = props => {
                     </ul>
                     <footer>
                       <p>{formatMoney(calcTotalPrice(me.cart))}</p>
-                      <Charge>
-                        <SickButton>Checkout</SickButton>
-                      </Charge>
+                      {me.cart.length > 0 && (
+                        <Charge>
+                          <SickButton>Checkout</SickButton>
+                        </Charge>
+                      )}
                     </footer>
                   </CartStyles>
                 )}
