@@ -9,9 +9,9 @@ function createClient({ headers }) {
     uri: 'https://sick-fits-yoga-fsd.herokuapp.com/',
     request: operation => {
       operation.setContext({
-        fetchOptions: {
-          credentials: 'include'
-        },
+        // fetchOptions: {
+        //   credentials: 'include'
+        // },
         headers
       });
     },
